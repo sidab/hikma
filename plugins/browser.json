@@ -1,0 +1,36 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-crosswalk-webview-arm": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "ru.hikma"
+    }
+  },
+  "dependent_plugins": {}
+}
