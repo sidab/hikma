@@ -190,13 +190,17 @@ function takePictureFromFileWP (successCallback, errorCallback, args) {
                 webUIApp.removeEventListener('activated', filePickerActivationHandler);
                 return;
             }
-            if (destinationType === Camera.DestinationType.FILE_URI) {
+            if (destinationType === Camera.DestinationType.FILE_URI || destinationType === Camera.DestinationType.NATIVE_URI) {
                 if (targetHeight > 0 && targetWidth > 0) {
                     resizeImage(successCallback, errorCallback, file, targetWidth, targetHeight, encodingType);
                 } else {
                     var storageFolder = getAppData().localFolder;
                     file.copyAsync(storageFolder, file.name, Windows.Storage.NameCollisionOption.replaceExisting).done(function (storageFile) {
-                        successCallback(URL.createObjectURL(storageFile));
+                        if (destinationType === Camera.DestinationType.NATIVE_URI) {
+                            successCallback('ms-appdata:///local/' + storageFile.name);
+                        } else {
+                            successCallback(URL.createObjectURL(storageFile));
+                        }
                     }, function () {
                         errorCallback("Can't access localStorage folder.");
                     });
@@ -255,13 +259,17 @@ function takePictureFromFileWindows (successCallback, errorCallback, args) {
             errorCallback("User didn't choose a file.");
             return;
         }
-        if (destinationType === Camera.DestinationType.FILE_URI) {
+        if (destinationType === Camera.DestinationType.FILE_URI || destinationType === Camera.DestinationType.NATIVE_URI) {
             if (targetHeight > 0 && targetWidth > 0) {
                 resizeImage(successCallback, errorCallback, file, targetWidth, targetHeight, encodingType);
             } else {
                 var storageFolder = getAppData().localFolder;
                 file.copyAsync(storageFolder, file.name, Windows.Storage.NameCollisionOption.replaceExisting).done(function (storageFile) {
-                    successCallback(URL.createObjectURL(storageFile));
+                    if (destinationType === Camera.DestinationType.NATIVE_URI) {
+                        successCallback('ms-appdata:///local/' + storageFile.name);
+                    } else {
+                        successCallback(URL.createObjectURL(storageFile));
+                    }
                 }, function () {
                     errorCallback("Can't access localStorage folder.");
                 });
@@ -366,6 +374,7 @@ function takePictureFromCameraWP (successCallback, errorCallback, args) {
 
             return capture.initializeAsync(captureSettings);
         }).then(function () {
+
             // create focus control if available
             var VideoDeviceController = capture.videoDeviceController;
             var FocusControl = VideoDeviceController.focusControl;
@@ -468,6 +477,7 @@ function takePictureFromCameraWP (successCallback, errorCallback, args) {
     }
 
     function captureAction () {
+
         var encodingProperties;
         var fileName;
         var tempFolder = getAppData().temporaryFolder;
@@ -705,7 +715,7 @@ function takePictureFromCameraWindows (successCallback, errorCallback, args) {
 
     if (targetWidth === -1 && targetHeight === -1) {
         maxRes = UIMaxRes.highestAvailable;
-        // Temp fix for CB-10539
+    // Temp fix for CB-10539
     /* else if (totalPixels <= 320 * 240) {
         maxRes = UIMaxRes.verySmallQvga;
     } */
@@ -771,7 +781,7 @@ function takePictureFromCameraWindows (successCallback, errorCallback, args) {
 function savePhoto (picture, options, successCallback, errorCallback) {
     // success callback for capture operation
     var success = function (picture) {
-        if (options.destinationType === Camera.DestinationType.FILE_URI) {
+        if (options.destinationType === Camera.DestinationType.FILE_URI || options.destinationType === Camera.DestinationType.NATIVE_URI) {
             if (options.targetHeight > 0 && options.targetWidth > 0) {
                 resizeImage(successCallback, errorCallback, picture, options.targetWidth, options.targetHeight, options.encodingType);
             } else {
@@ -802,6 +812,7 @@ function savePhoto (picture, options, successCallback, errorCallback) {
 
     if (!options.saveToPhotoAlbum) {
         success(picture);
+
     } else {
         var savePicker = new Windows.Storage.Pickers.FileSavePicker();
         var saveFile = function (file) {
