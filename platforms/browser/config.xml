@@ -10,6 +10,18 @@
     <access origin="*" />
     <allow-intent href="*" />
     <allow-navigation href="*" />
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationAlwaysUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationWhenInUseUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
+        <string>Нам необходим доступ к вашему микрофону для записи голоса</string>
+    </edit-config>
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen" value="false" />
     <preference name="orientation" value="portrait" />

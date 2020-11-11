@@ -30,7 +30,32 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "com.mljsgto222.cordova.plugin.audiorecorder": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "ru.hikma"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "ru.hikma"
+    }
+  }
 }
