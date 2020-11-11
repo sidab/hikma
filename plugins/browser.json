@@ -28,9 +28,6 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "ru.hikma"
     },
-    "onesignal-cordova-plugin": {
-      "PACKAGE_NAME": "ru.hikma"
-    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "ru.hikma"
     },
@@ -50,6 +47,9 @@
       "PACKAGE_NAME": "ru.hikma"
     },
     "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "ru.hikma"
+    },
+    "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "ru.hikma"
     }
   },

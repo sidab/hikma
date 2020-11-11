@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa73a294-b7e8-4410-a306-d16a6091621e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="fa73a294-b7e8-4410-a306-d16a6091621e" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/onesignal-cordova-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/onesignal-cordova-plugin/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/browser/browser.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/browser.json" afterDir="false" />
@@ -29,8 +30,86 @@
       <change beforePath="$PROJECT_DIR$/platforms/browser/platform_www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/platform_www/cordova_plugins.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/hdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/hdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/ldpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/ldpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/mdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/mdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xxxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/android/xxxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-167.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-167.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small-50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon-small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-hdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-hdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-ldpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-ldpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-mdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-mdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xxxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/android/splash-port-xxxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~ipad~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~ipad~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~ipad~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~ipad~comany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~iphone~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~iphone~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~iphone~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@2x~iphone~comany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@3x~iphone~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@3x~iphone~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@3x~iphone~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/Default@3x~iphone~comany.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/browser.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/browser.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/onesignal-cordova-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/onesignal-cordova-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/hdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/hdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/ldpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/ldpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/mdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/mdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/xhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/xhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/xxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/xxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/android/xxxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/android/xxxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-167.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-167.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small-50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small-50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-hdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-hdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-ldpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-ldpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-mdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-mdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-xhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-xhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-xxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-xxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/android/splash-port-xxxhdpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/android/splash-port-xxxhdpi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~ipad~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~ipad~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~ipad~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~ipad~comany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~iphone~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~iphone~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~iphone~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@2x~iphone~comany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@3x~iphone~anyany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@3x~iphone~anyany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/screen/ios/Default@3x~iphone~comany.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/screen/ios/Default@3x~iphone~comany.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +162,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603976324423</updated>
       <workItem from="1603976326523" duration="379000" />
-      <workItem from="1603977882694" duration="3743000" />
+      <workItem from="1603977882694" duration="6787000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1605077465259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605077465259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +188,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1496" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603976504118">
@@ -131,5 +222,9 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1451" y="179" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603976541154" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605077481309">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605077481309" />
   </component>
 </project>

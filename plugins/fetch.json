@@ -39,14 +39,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "onesignal-cordova-plugin": {
-    "source": {
-      "type": "registry",
-      "id": "onesignal-cordova-plugin@2.11.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-ionic-keyboard": {
     "source": {
       "type": "registry",
@@ -123,6 +115,14 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-geolocation@4.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "onesignal-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "onesignal-cordova-plugin@2.11.1"
     },
     "is_top_level": true,
     "variables": {}

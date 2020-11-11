@@ -16,13 +16,13 @@
     "fetchSpec": "2.11.1"
   },
   "_requiredBy": [
-    "#DEV:/",
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/onesignal-cordova-plugin/-/onesignal-cordova-plugin-2.11.1.tgz",
   "_shasum": "8b8f31f7af2043762ffeca6188e668527c97a1a7",
   "_spec": "onesignal-cordova-plugin@2.11.1",
-  "_where": "/Users/umahan/Documents/GitHub/hikma",
+  "_where": "/Users/umakhan/WebstormProjects/hikma",
   "author": {
     "name": "Josh Kasten, Brad Hesse, Rodrigo Gomez-Palacio"
   },
