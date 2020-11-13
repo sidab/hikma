@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ru.hikma" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="ru.hikma" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hikma</name>
     <description>
         Hikma - Исламский магазин.
@@ -10,6 +10,9 @@
     <access origin="*" />
     <allow-intent href="*" />
     <allow-navigation href="*" />
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSCameraUsageDescription">
+        <string>Нам необходим доступ к вашей камере для использования приложения и сканирования штрих кодов..</string>
+    </edit-config>
     <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationAlwaysUsageDescription">
         <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
     </edit-config>
