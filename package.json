@@ -28,7 +28,8 @@
       "com.mljsgto222.cordova.plugin.audiorecorder": {},
       "cordova-plugin-geolocation": {
         "GEOLOCATION_USAGE_DESCRIPTION": "Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес."
-      }
+      },
+      "cordova-plugin-ionic-webview": {}
     },
     "platforms": [
       "browser"
