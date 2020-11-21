@@ -31,6 +31,9 @@
     <icon src="www/icon.png" />
     <content src="index.html" />
     <platform name="ios">
+        <config-file parent="UIUserInterfaceStyle" platform="ios" target="*-Info.plist">
+            <string>Light</string>
+        </config-file>
         <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationAlwaysUsageDescription">
             <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
         </edit-config>
