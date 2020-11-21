@@ -14,9 +14,6 @@ let cssLoaded = false;
 
 let jsLoaded = false;
 
-function ttt () {
-    fgdfg
-}
 function initConfig() {
 
     if (localStorage.getItem('config')) {
