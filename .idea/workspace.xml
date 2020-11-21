@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa73a294-b7e8-4410-a306-d16a6091621e" name="Default Changelist" comment="fix">
+    <list default="true" id="fa73a294-b7e8-4410-a306-d16a6091621e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/www/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/init.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1603976326523" duration="379000" />
       <workItem from="1603977882694" duration="21037000" />
       <workItem from="1605531074632" duration="1995000" />
-      <workItem from="1605684956832" duration="6558000" />
+      <workItem from="1605684956832" duration="8220000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1605077465259</created>
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605968150233</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1605968937418</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605968937418</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +184,10 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1496" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603976504118" />
-    <state x="-1353" y="113" key="CommitChangelistDialog2" timestamp="1605968149712">
+    <state x="-1353" y="113" key="CommitChangelistDialog2" timestamp="1605968937211">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1353" y="113" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605968149712" />
+    <state x="-1353" y="113" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605968937211" />
     <state width="1899" height="145" key="GridCell.Tab.0.bottom" timestamp="1605967551197">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -216,9 +220,9 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1451" y="179" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603976541154" />
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605968160100">
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605968941497">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605968160100" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605968941497" />
   </component>
 </project>
