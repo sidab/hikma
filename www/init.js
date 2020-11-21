@@ -14,13 +14,28 @@ let cssLoaded = false;
 
 let jsLoaded = false;
 
+function ttt () {
+    fgdfg
+}
 function initConfig() {
 
-    if (localStorage.getItem('config') && localStorage.getItem('css') && localStorage.getItem('js')) {
+    if (localStorage.getItem('config')) {
 
-        initCss();
+        try {
 
-        initJs();
+            initCss();
+
+            initJs();
+
+        } catch (error) {
+
+            console.log(error);
+
+            localStorage.removeItem('config');
+
+            initConfig();
+
+        }
 
         loadConfig(function () {
 
