@@ -51,6 +51,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "ru.hikma"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "ru.hikma"
     }
   },
   "dependent_plugins": {

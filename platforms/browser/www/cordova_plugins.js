@@ -326,6 +326,14 @@ module.exports = [
         "clobbers": [
             "OneSignal"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+        "id": "cordova-plugin-screen-orientation.screenorientation",
+        "pluginId": "cordova-plugin-screen-orientation",
+        "clobbers": [
+            "cordova.plugins.screenorientation"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -346,7 +354,8 @@ module.exports.metadata =
     "phonegap-plugin-barcodescanner": "8.1.0",
     "com.mljsgto222.cordova.plugin.audiorecorder": "0.7.1",
     "cordova-plugin-geolocation": "4.0.2",
-    "onesignal-cordova-plugin": "2.11.1"
+    "onesignal-cordova-plugin": "2.11.1",
+    "cordova-plugin-screen-orientation": "3.0.2"
 }
 // BOTTOM OF METADATA
 });

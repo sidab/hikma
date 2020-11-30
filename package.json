@@ -29,7 +29,8 @@
       "cordova-plugin-geolocation": {
         "GEOLOCATION_USAGE_DESCRIPTION": "Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес."
       },
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-screen-orientation": {}
     },
     "platforms": [
       "browser"
@@ -38,6 +39,7 @@
   "dependencies": {
     "cordova-browser": "^6.0.0",
     "cordova-plugin-crosswalk-webview-arm": "^3.1.0",
-    "cordova-plugin-ionic-keyboard": "^2.2.0"
+    "cordova-plugin-ionic-keyboard": "^2.2.0",
+    "cordova-plugin-screen-orientation": "3.0.2"
   }
 }
